@@ -108,22 +108,18 @@ h1:hover, #authorInfo span:hover{
   position: absolute;
   width:380px;
   height: 380px;
-  background-color: hsl(178, 100%, 50%);
+  background-color: hsla(178, 100%, 50%, .4);
   display: flex;
   align-items: center;
   justify-content: center;
   opacity: 0;
+  cursor: pointer;
 }
 
 .overlay:hover{
-  opacity: 0.4;
+  opacity: 1;
 }
 
-#icon{
-  position: absolute;
-  top:35%;
-  z-index:-1;
-}
 .overlay:hover + #icon{
   z-index: 2;
 }
