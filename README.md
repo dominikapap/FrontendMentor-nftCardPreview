@@ -22,7 +22,7 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-This is a basic view:
+This is a screenshot of a basic view:
 ![](/screenshots/basic.PNG)
 
 This one is with hover states:
@@ -31,8 +31,8 @@ This one is with hover states:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub repository](https://github.com/dominikapap/nftCardPreview)
+- Live Site URL: [NFT Card Preview on Netlify](https://dominikapap-nft-card-preview.netlify.app/)
 
 
 ### Built with
