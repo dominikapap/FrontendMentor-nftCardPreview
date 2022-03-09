@@ -23,10 +23,10 @@ Users should be able to:
 
 ### Screenshot
 This is a basic view:
-![](/screenshots/basic.png)
+![](/screenshots/basic.PNG)
 
 This one is with hover states:
-![](/screenshots/hover.png)
+![](/screenshots/hover.PNG)
 
 
 ### Links
