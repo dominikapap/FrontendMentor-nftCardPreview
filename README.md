@@ -22,11 +22,11 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-This is basic view:
-![](screenshots/basic.png)
+This is a basic view:
+![](/screenshots/basic.png)
 
 This one is with hover states:
-![](screenshots/hover.png)
+![](/screenshots/hover.png)
 
 
 ### Links
