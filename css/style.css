@@ -160,6 +160,14 @@ h1:hover,
   .cardText p {
     padding-bottom: 24px;
   }
+  #price, #days-left{
+    font-size: 16px;
+    line-height: 20.16px;
+  }
+  #authorInfo{
+    font-size: 16px;
+    line-height: 20px;
+  }
   hr {
     width: 302px;
   }
