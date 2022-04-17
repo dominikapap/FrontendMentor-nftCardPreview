@@ -149,6 +149,7 @@ h1:hover,
   }
   h1 {
     padding-bottom: 16px;
+    line-height: 28px;
   }
   #authorInfo {
     padding-bottom: 32px;
