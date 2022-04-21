@@ -1,0 +1,180 @@
+body {
+  background-color: hsl(217deg, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+}
+
+.main {
+  background-color: hsl(216deg, 50%, 16%);
+  border-radius: 15px;
+  text-align: left;
+  width: 327px;
+  height: 543px;
+}
+
+.cardImg {
+  padding: 1.5rem;
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#nftImg,
+#overlay {
+  width: 278px;
+}
+
+#nftImg {
+  border-radius: 3%;
+  background-color: hsl(215deg, 32%, 27%);
+}
+
+#overlay {
+  position: absolute;
+  height: 278px;
+  background-color: hsl(178deg, 100%, 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+#overlay:hover {
+  opacity: 0.4;
+}
+#overlay:hover + #icon {
+  z-index: 2;
+}
+
+#icon {
+  position: absolute;
+  top: 130px;
+  z-index: -1;
+  width: 48px;
+}
+
+.cardText {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.cardText h1 {
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 600;
+  font-size: 22px;
+  padding-bottom: 12px;
+}
+.cardText h1:hover {
+  color: hsl(178deg, 100%, 50%);
+}
+.cardText p {
+  font-size: 18px;
+  max-width: 350px;
+  line-height: 26px;
+  padding-bottom: 16px;
+  color: hsl(215deg, 51%, 70%);
+}
+
+.spans {
+  display: flex;
+  justify-content: space-between;
+}
+
+#price,
+#days-left {
+  display: flex;
+  align-items: baseline;
+  font-size: 15px;
+  line-height: 19px;
+}
+
+#price {
+  color: hsl(178deg, 100%, 50%);
+  font-weight: 600;
+}
+
+#days-left {
+  color: hsl(215deg, 51%, 70%);
+  margin-left: auto;
+  font-weight: 400;
+}
+
+svg {
+  padding-right: 0.5rem;
+}
+
+hr {
+  border: solid 1px hsl(215deg, 32%, 27%);
+  width: 278px;
+  margin: 0;
+}
+
+#authorInfo {
+  display: flex;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 24px;
+  font-size: 15px;
+  line-height: 19px;
+}
+#authorInfo span {
+  margin-left: 0.5rem;
+  color: hsl(0deg, 0%, 100%);
+}
+#authorInfo span:hover {
+  color: hsl(178deg, 100%, 50%);
+}
+
+#avatar {
+  width: 33px;
+  border: hsl(0deg, 0%, 100%) solid 1px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+@media (min-width: 500px) {
+  .main {
+    width: 350px;
+    height: 596px;
+  }
+
+  #nftImg,
+#overlay {
+    width: 302px;
+  }
+
+  #overlay {
+    height: 302px;
+  }
+
+  #icon {
+    top: 150px;
+  }
+
+  .cardImg {
+    padding-bottom: 0;
+  }
+
+  #authorInfo {
+    padding-bottom: 32px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .cardText h1 {
+    padding-bottom: 14px;
+    line-height: 28px;
+  }
+  .cardText p {
+    padding-bottom: 22px;
+  }
+
+  #price,
+#days-left {
+    font-size: 16px;
+    line-height: 20.16px;
+  }
+
+  hr {
+    width: 302px;
+  }
+}/*# sourceMappingURL=main.css.map */
