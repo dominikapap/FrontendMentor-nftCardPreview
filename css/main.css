@@ -26,7 +26,7 @@ body {
 
 #nftImg {
   border-radius: 3%;
-  background-color: hsl(215deg, 32%, 27%);
+  background-color: rgba(62, 78, 101, 0.3);
 }
 
 #overlay {
@@ -95,6 +95,7 @@ body {
   color: hsl(215deg, 51%, 70%);
   margin-left: auto;
   font-weight: 400;
+  align-items: center;
 }
 
 svg {
@@ -102,7 +103,7 @@ svg {
 }
 
 hr {
-  border: solid 1px hsl(215deg, 32%, 27%);
+  border: solid 1px rgba(62, 78, 101, 0.3);
   width: 278px;
   margin: 0;
 }

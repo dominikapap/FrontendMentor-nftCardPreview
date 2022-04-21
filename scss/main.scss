@@ -2,7 +2,7 @@ $soft-blue: hsl(215, 51%, 70%);
 $cyan: hsl(178, 100%, 50%);
 $dark-blue-bg: hsl(217, 54%, 11%);
 $dark-blue-card: hsl(216, 50%, 16%);
-$dark-blue-line: hsl(215, 32%, 27%);
+$dark-blue-line: rgb(62, 78, 101,0.3);
 $white: hsl(0, 0%, 100%);
 
 body {
@@ -103,13 +103,14 @@ body {
   color: $soft-blue;
   margin-left: auto;
   font-weight: 400;
+  align-items: center;
 }
 svg {
   padding-right: 0.5rem;
 }
 
 hr {
-  border: solid 1px $dark-blue-line;
+  border: solid 1px $dark-blue-line ;
   width: 278px;
   margin: 0;
 }
