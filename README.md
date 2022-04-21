@@ -22,12 +22,14 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-This is a screenshot of a basic view:
+This is a screenshot of a basic view:  
 ![](/screenshots/basic.PNG)
 
-This one is with hover states:
+This one is with hover states:  
 ![](/screenshots/hover.PNG)
 
+Solution and design comparison:  
+![](/screenshots/designComparison.png)
 
 ### Links
 
@@ -38,8 +40,9 @@ This one is with hover states:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- SCSS,CSS custom properties
 - Flexbox
+- AWD
 
 
 
