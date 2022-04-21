@@ -91,7 +91,6 @@ body {
 #price,
 #days-left {
   display: flex;
-  align-items: baseline;
   font-size: 15px;
   line-height: 19px;
 }
@@ -173,12 +172,16 @@ hr {
       padding-bottom: 22px;
     }
   }
-
-  #price,
-  #days-left {
+  .spans{
+    padding-bottom: 24px;
+    
+    #price,
+    #days-left {
     font-size: 16px;
     line-height: 20.16px;
   }
+  }
+  
   hr {
     width: 302px;
   }
