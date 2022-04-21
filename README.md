@@ -23,12 +23,15 @@ Users should be able to:
 
 ### Screenshot
 This is a screenshot of a basic view:  
+  
 ![](/screenshots/basic.PNG)
 
 This one is with hover states:  
+  
 ![](/screenshots/hover.PNG)
 
 Solution and design comparison:  
+  
 ![](/screenshots/designComparison.png)
 
 ### Links
