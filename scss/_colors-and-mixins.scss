@@ -8,3 +8,10 @@ $white: hsl(0, 0%, 100%);
 @mixin big-phone-up {
   @content;
 }
+
+
+@mixin center-children {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
